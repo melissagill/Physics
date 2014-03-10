@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Units">
+      <UniqueIdentifier>{0d601b16-d235-4ed5-903b-15eedf4313d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Units">
+      <UniqueIdentifier>{72ec6ed7-ef04-482b-a107-a28b07e26b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{755268bb-7299-4f21-b19d-6e9fff926fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{e98859b2-e6a6-4b96-97d9-a8d6c6fec6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ForceGenerators">
+      <UniqueIdentifier>{56a41907-37b5-4d78-8ba4-53f7c502f69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ForceGenerators">
+      <UniqueIdentifier>{bd1b55d7-0d9a-4eae-9cab-df3ceaad5dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PhysicsManagement">
+      <UniqueIdentifier>{dde1a2af-a6e5-4c61-99e9-db5113cfaea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PhysicsManagement">
+      <UniqueIdentifier>{68970c9a-10a0-4035-a45f-6a06cdbb7725}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidbodyUnit.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceRegistry.cpp">
+      <Filter>Source Files\PhysicsManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickForce.cpp">
+      <Filter>Source Files\ForceGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>Source Files\ForceGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>Source Files\ForceGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="Bungee.cpp">
+      <Filter>Source Files\ForceGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetGravity.cpp">
+      <Filter>Source Files\ForceGenerators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidbodyUnit.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceGenerator.h">
+      <Filter>Header Files\ForceGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceRegistration.h">
+      <Filter>Header Files\PhysicsManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceRegistry.h">
+      <Filter>Header Files\PhysicsManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickForce.h">
+      <Filter>Header Files\ForceGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>Header Files\ForceGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>Header Files\ForceGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="Bungee.h">
+      <Filter>Header Files\ForceGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetGravity.h">
+      <Filter>Header Files\ForceGenerators</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
